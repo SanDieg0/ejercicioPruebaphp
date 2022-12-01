@@ -1,0 +1,119 @@
+/* ESTILOS DE BASE */
+
+
+/* SELECTOR POR ETIQUETA */
+div{
+
+
+}
+
+/* SELECTOR POR CLASE */
+.tarjetas{
+	display: inline-block;
+	background-color: brown;
+	width: 32%;
+}
+
+.lasimagenes{
+	width: 100%;
+}	
+
+.compras{
+	width:99%;
+	background-color: LightSkyBlue;
+}
+
+.imagen_mobile{
+	display: block;
+}
+
+.texto_mobile{
+	display: block;
+}
+
+/*SELECTOR POR ID */
+#loco{
+	background-color: blue;
+	color:white;
+}
+
+#contenedor{
+	background-color: gray;
+}
+
+#izquierdo{
+	background-color:blue;
+	width: 19%;
+	display: inline-block;
+}
+
+#derecho{
+	background-color: green;
+	width: 79%;
+	display: inline-block;
+}
+
+#cuadrado{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	display: inline-block;
+}
+
+#textoespecial{
+	display: inline-block;
+}
+
+#parrafoespecial{
+	background-color: PowderBlue;
+	color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS DE MEDIA QUERY */
+@media only screen and (max-width: 400px){
+/* SELECTOR POR CLASE */
+	.tarjetas{
+		width: 99%;
+		display: block;
+		background-color: MediumOrchid;
+	}
+
+	.compras{
+		width:99%;
+		background-color: Khaki;
+	}
+
+	.imagen_mobile{
+		display:inline-block; 
+		width: 69%;
+	}
+
+	.texto_mobile{
+		display:inline-block; 
+		width: 29%;
+	}
+
+/*SELECTOR POR ID */
+	#izquierdo{
+		background-color:blue;
+		width: 100%;
+		display: block;
+	}
+
+	#derecho{
+		background-color: green;
+		width: 100%;
+		display: block;
+	}
+
+
+}
